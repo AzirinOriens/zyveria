@@ -399,6 +399,8 @@ fn main() {
             name,
             hp: 100,
             maxHp: 100,
+            mp: 5,
+            maxMp: 5,
             equippedWeapon: Weapon {
                 name: "Fist".to_string(),
                 description: "A rusty fist.".to_string(),
